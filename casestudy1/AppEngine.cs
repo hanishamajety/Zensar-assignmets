@@ -223,10 +223,10 @@ namespace casestudy1
             string Name = Console.ReadLine();
             Console.WriteLine("Enter Student DOB:");
             string DateOfBirth = Console.ReadLine();
-            cmd7 = new SqlCommand("update Student set S_Name=@S_Name,S_Dob=@S_Dob where Std_id=@Std_id", con);
-            cmd7.Parameters.AddWithValue("@Std_id", Id);
-            cmd7.Parameters.AddWithValue("@S_Name", Name);
-            cmd7.Parameters.AddWithValue("@S_Dob", DateOfBirth);
+            cmd7 = new SqlCommand("update Student set stdname=@stdname,sdob=@sdob where stdid=@stdid", con);
+            cmd7.Parameters.AddWithValue("@stdid", Id);
+            cmd7.Parameters.AddWithValue("@stname", Name);
+            cmd7.Parameters.AddWithValue("@sdob", DateOfBirth);
             int res5 = cmd7.ExecuteNonQuery();
             if (res5 > 0)
             {
