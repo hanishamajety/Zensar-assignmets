@@ -39,7 +39,7 @@
         <p>
             Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="phnumber" runat="server"></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="phnumber" ErrorMessage="Invalid Phone number" ForeColor="Red" ValidationExpression="[0-9]{2}-[0-9]{10}" ValidationGroup="vg">*</asp:RegularExpressionValidator>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="phnumber" ErrorMessage="Please follow the format as xx-xxxxxxxxxx" ForeColor="Red" ValidationExpression="[0-9]{2}-[0-9]{10}" ValidationGroup="vg">*</asp:RegularExpressionValidator>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="phnumber" ErrorMessage="Phone number is required" ValidationGroup="vg"></asp:RequiredFieldValidator>
         </p>
         <p>
