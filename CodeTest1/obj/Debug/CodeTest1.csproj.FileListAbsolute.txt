@@ -1,0 +1,7 @@
+D:\Zensar\assignment\CodeTest\CodeTest1\bin\Debug\CodeTest1.exe.config
+D:\Zensar\assignment\CodeTest\CodeTest1\bin\Debug\CodeTest1.exe
+D:\Zensar\assignment\CodeTest\CodeTest1\bin\Debug\CodeTest1.pdb
+D:\Zensar\assignment\CodeTest\CodeTest1\obj\Debug\CodeTest1.csproj.AssemblyReference.cache
+D:\Zensar\assignment\CodeTest\CodeTest1\obj\Debug\CodeTest1.csproj.CoreCompileInputs.cache
+D:\Zensar\assignment\CodeTest\CodeTest1\obj\Debug\CodeTest1.exe
+D:\Zensar\assignment\CodeTest\CodeTest1\obj\Debug\CodeTest1.pdb
